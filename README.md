@@ -1,7 +1,5 @@
 # Rick And Morty App
 
-RICK AND MORTY APP
-
 Aplicación desarrollada en React que consume la API pública *“The Rick and Morty API”* para listar personajes y visualizar su información detallada.
 
 
