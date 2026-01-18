@@ -20,27 +20,25 @@ La aplicación obtiene los datos desde la API pública: https://rickandmortyapi.
 
 ### "Capa" de acceso a datos
 
-📁 src/api
-📁 src/services
+- 📁 src/api
+- 📁 src/services
 
-- Centraliza la configuración de Axios
-- Define la URL base de la API
+_Centraliza la configuración de Axios y define la URL base de la API_
 
 ### "Capa" de lógica de negocio
 
-📁 src/services
-📁 src/context
+- 📁 src/services
+- 📁 src/context
 
 _Aquí se hacen las llamadas y el tratado de datos antes de su uso en los componentes._ *Ejemplos:*
 
-- Maneja el estado global de favoritos y los métodos de añadir o quitar un favorito
-- Métodos para obtener los personajes aplicando filtros.
+Maneja el estado global de favoritos y los métodos de añadir o quitar un favorito y contiene los métodos para obtener los personajes aplicando filtros.
 
 ### "Capa" de presentación
 
-📁 src/components
+- 📁 src/components
 
-Aquí están los componentes funcionales de la aplicación y modularizados para poder ser reutilizados en otra parte de la aplicación. Ejemplos:
+_Aquí están los componentes funcionales de la aplicación y modularizados para poder ser reutilizados en otra parte de la aplicación._ *Ejemplos:*
 
 - *CharacterCard*: Muestra información básica de un personaje
 - *CharacterPagination*: Controla la paginación
@@ -48,9 +46,9 @@ Aquí están los componentes funcionales de la aplicación y modularizados para 
 
 ###  Páginas
 
-📁 src/pages
+- 📁 src/pages
 
-Las páginas representan vistas completas de la aplicación:
+_Las páginas contienen las vistas de la aplicación_
 
 - *Home*: Listado de personajes
 - *CharacterPage*: Detalle de un personaje
@@ -59,18 +57,16 @@ Las páginas representan vistas completas de la aplicación:
 
 ###  Enrutado y navegación
 
-📁 App.jsx
+- 📁 App.jsx
 
-- Uso de React Router DOM
-- Definición de rutas
-- Navegación entre páginas usando navigate
+_Uso de React Router DOM, definición de rutas y navegación entre páginas usando Navigate_
 
 ### Estilos
 
-📁 styles
-📁 index.css
+- 📁 styles
+- 📁 index.css
 
-Tailwind CSS para estilos rápidos y utilitarios y  Material UI para componentes visuales consistentes
+_Tailwind CSS para estilos rápidos y utilitarios y  Material UI para componentes visuales consistentes_
 
 
 ## Tecnologías y librerías utilizadas
